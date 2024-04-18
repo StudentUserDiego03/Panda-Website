@@ -1,6 +1,8 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin:0 auto;
+    width: 1480px;
+
 }
 header{
     background-color: rgb(235, 235, 235);
@@ -45,6 +47,13 @@ header nav :active{
     font-weight: 300;
     color: white;
     text-shadow: black 0px 0px 7px;
+    margin-inline-start: 20px;
+}
+.landing-screen p{
+    font-size: 40px;
+    color: white;
+    margin-inline-start: 20px;
+    text-shadow: black 0px 0px 7px;
 }
 
 section{
@@ -63,35 +72,50 @@ section h2{
     font-weight: 400;
     text-decoration: underline;
     text-decoration-color: rgb(34, 171, 34);
+    
 }
 section p{
     font-size: 30px;
 }
 
 section img{
-    width: 718px;
-    height: 402px;
-    margin-inline-start: 270px;
+width: 718px;
+height: 500px;
+margin-left: auto;
 }
 .donation-section{
     background-color: #353535;
     box-shadow: 0px 5px 10px;
-    display: flex;
     padding:28px;
     padding-top: 40px;
     padding-bottom: 40px;
     box-shadow: none;
+    
 }
+
 .donation-section h2{
     color: white;
     font-size: 50px;
     text-decoration: underline;
     text-decoration-color: rgb(34, 171, 34);
+    
 
 }
 .donation-section p{
     color: white;
 }
+
+.input{
+   
+    margin-inline-start: 30px;
+    margin-top: -50px;
+    display: flex;
+
+}
+.input div{
+    margin: 30px;
+}
+
 
 footer{
     background-color: rgb(235, 235, 235);
@@ -148,6 +172,9 @@ footer nav a:hover{
     
 }
 
+.input-field{
+    display: flex;
+}
 
 
 
@@ -186,4 +213,31 @@ footer nav a:hover{
     .landing-screen h2{
         font-size: 45px;
     }
+
+
+    section{
+        display: block;
+        align-self: center;
+        
+    }
+    section img{
+        width: 300px;
+        height: 300px;
+        margin-top: 40px;
+        align-self: center;
+    
+        }
+
+        footer{
+            display: block;
+            justify-content: center;
+            text-align: center;
+        }
+        .footer-div{
+            margin-inline-start: auto;
+        }
+        footer nav{
+            margin-inline-start: auto;
+            margin-bottom: none;
+        }
 }
