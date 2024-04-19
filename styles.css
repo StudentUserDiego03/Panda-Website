@@ -49,6 +49,13 @@ header nav :active{
     text-shadow: black 0px 0px 7px;
     margin-inline-start: 20px;
 }
+.landing-screen h3{
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    text-shadow: black 0px 0px 7px;
+    margin-inline-start: 20px;
+}
 .landing-screen p{
     font-size: 40px;
     color: white;
@@ -113,7 +120,7 @@ margin-left: auto;
 
 }
 .input div{
-    margin: 30px;
+    margin: 50px;
 }
 
 
@@ -178,9 +185,27 @@ footer nav a:hover{
 
 
 
+.Info-heading{
+    background-color: #1d1d1d;
+    box-shadow: 0px 5px 10px;
+    padding:18px;
+    box-shadow: 0px 5px 10px;
+    position: relative;
 
+}
+.Info-heading h2{
+    color: white;
+    font-size: 70px;
+    text-decoration: underline;
+    font-weight: 300;
+    text-decoration-color: rgb(34, 171, 34);
+    
 
+}
 
+span h2{
+    font-size: 150px;
+}
 
 
 
@@ -188,7 +213,36 @@ footer nav a:hover{
 
 
 @media (max-width: 1024px){
+    body{
+        width: 1024px;
+        margin: 0 auto;
+    }
+
+    section{
+        align-items: center;
+    }
+
+    section h2{
+        font-size: 50px;
+    }
+    section p{
+        font-size: 20px;
+    }
     
+    section img{
+        width: 518px;
+        height: 300px;
+        }
+
+    .landing-screen h2{
+        font-size:65px;
+    }
+    .landing-screen h3{
+        font-size:65px;
+    }
+    .landing-screen p{
+        font-size:30px;
+    }
 }
 
 @media (max-width:820px){
@@ -213,6 +267,12 @@ footer nav a:hover{
     .landing-screen h2{
         font-size: 45px;
     }
+    .landing-screen h3{
+        font-size: 45px;
+    }
+    .landing-screen p{
+        font-size:  25px;
+    }
 
 
     section{
@@ -225,6 +285,7 @@ footer nav a:hover{
         height: 300px;
         margin-top: 40px;
         align-self: center;
+        display: none;
     
         }
 
@@ -239,5 +300,17 @@ footer nav a:hover{
         footer nav{
             margin-inline-start: auto;
             margin-bottom: none;
+        }
+
+        .Info-heading h2{
+            font-size: 50px;
+        }
+        .input-field{
+            display: block;
+        }
+        .input{
+            display: block;
+            margin-top: 60px;
+            margin: -30px;
         }
 }
