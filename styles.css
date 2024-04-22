@@ -208,7 +208,13 @@ span h2{
 }
 
 
+.mobile-text{
+    display: none;
+}
 
+.iPad-text{
+    display: none;
+}
 
 
 
@@ -241,11 +247,47 @@ span h2{
         font-size:65px;
     }
     .landing-screen p{
-        font-size:30px;
+        font-size:27px;
     }
 }
 
 @media (max-width:820px){
+
+    body{
+        width: 820px;
+        margin: 0 auto;
+    }
+
+    header nav{
+        margin-inline-start: 80px;
+    }
+    header nav a{
+        font-size: 20px;
+    }
+
+    .landing-screen h2{
+        font-size:50px;
+    }
+    .landing-screen h3{
+        font-size:50px;
+    }
+    .landing-screen p{
+        font-size: 23px;
+    }
+
+    section img{
+        display:none ;
+    }
+    section h2{
+        font-size: 45px;
+    }
+
+    .desktop-text{
+        display: none;
+    }
+    .iPad-text{
+        display: block;
+    }
     
 }
 
@@ -312,5 +354,15 @@ span h2{
             display: block;
             margin-top: 60px;
             margin: -30px;
+        }
+
+        .iPad-text{
+            display: none;
+        }
+        .desktop-text{
+            display: none;
+        }
+        .mobile-text{
+            display: block;
         }
 }
