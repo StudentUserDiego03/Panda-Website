@@ -11,6 +11,11 @@ header{
     align-items: center;
     position: relative;
 }
+.mobile-header{
+    display: none;
+}
+
+
 header h1{
     font-size: 40px;
     font-weight: 500;
@@ -216,6 +221,9 @@ span h2{
     display: none;
 }
 
+.not_active{
+    display: none;
+}
 
 
 @media (max-width: 1024px){
@@ -297,7 +305,7 @@ span h2{
         margin: 0 auto;
     }
     header{
-        display: block;
+        display: none;
         align-self: center;
         text-align: center;
     }
@@ -306,14 +314,44 @@ span h2{
         margin-bottom: -0px;
     }
 
+    .mobile-header{
+        display: block;
+        align-items: center;
+        padding: 10px;
+    }
+    .mobile-header nav{
+        margin-top: -60px;
+    }
+    .mobile-header nav a{
+        font-size: 18px;
+        display: block;
+        margin-inline-start: 140px;
+    }
+    .mobile-header h1{
+        font-size: 20px;
+        text-align: start;
+        margin-inline-start: 10px;
+    }
+    .mobile-header img{
+        width: 50px;
+        height: 50px;
+        margin-inline-start: 140px;
+    }
+
     .landing-screen h2{
         font-size: 45px;
+        margin-inline-start: 5px;
     }
     .landing-screen h3{
         font-size: 45px;
+        margin-inline-start: 5px;
     }
     .landing-screen p{
         font-size:  25px;
+        margin-inline-start: 5px;
+    }
+    .call-to-action{
+        margin-right: 20px;
     }
 
 
@@ -365,4 +403,7 @@ span h2{
         .mobile-text{
             display: block;
         }
+
+        
+        
 }
