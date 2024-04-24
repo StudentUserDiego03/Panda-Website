@@ -113,6 +113,17 @@ margin-left: auto;
     
 
 }
+
+.donation-section h3{
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color: rgb(34, 171, 34);
+    
+
+}
+
 .donation-section p{
     color: white;
 }
@@ -225,6 +236,10 @@ span h2{
     display: none;
 }
 
+.mobile-view{
+    display: none;
+}
+
 
 @media (max-width: 1024px){
     body{
@@ -312,6 +327,9 @@ span h2{
     header nav{
         margin-inline-start: 0px;
         margin-bottom: -0px;
+    }
+    .landing-screen{
+        display: ;
     }
 
     .mobile-header{
@@ -404,6 +422,9 @@ span h2{
             display: block;
         }
 
+        .mobile-view{
+            display: ;
+        }
         
         
 }
