@@ -355,6 +355,9 @@ span h2{
         height: 50px;
         margin-inline-start: 140px;
     }
+    .landing-screen{
+        display: none;
+    }
 
     .landing-screen h2{
         font-size: 45px;
@@ -401,7 +404,8 @@ span h2{
         }
 
         .Info-heading h2{
-            font-size: 50px;
+            font-size: 40px;
+            margin-inline-start: -10px;
         }
         .input-field{
             display: block;
@@ -423,7 +427,7 @@ span h2{
         }
 
         .mobile-view{
-            display: ;
+            display: block;
         }
         
         
