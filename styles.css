@@ -66,6 +66,7 @@ header nav :active{
     color: white;
     margin-inline-start: 20px;
     text-shadow: black 0px 0px 7px;
+    
 }
 
 section{
@@ -373,6 +374,7 @@ span h2{
     }
     .call-to-action{
         margin-right: 20px;
+        
     }
 
 
